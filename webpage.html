@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emmanuel Tsheledi Mafolo basic web page</title>
+    <style>
+        .container {
+            background-color: darkgray;
+            font-style: normal;
+            text-align: start;
+            flex-wrap: wrap;
+            margin: auto;
+            border-style: groove;
+            width: 100%;
+        }
+        .header {
+            display: flex;
+            width: 100%;
+            font-weight: bold;
+            padding: 25px;
+            align-content: space-between;
+        }
+        .image1 {
+            float: right;
+            width: 50%;
+            
+        }
+        .content {
+            padding: 2em;
+            max-width: 100%;
+            align-content: space-around;
+            margin: auto;
+        }
+        .image2 {
+            float: right;
+        }
+        .city {
+            display: flex;
+            align-content: space-between;
+            margin: auto;
+        }
+        table, th, td{
+            border: 3px solid black;
+          padding: 2px;
+          
+        }
+        th {
+            font-size: larger;
+        }
+        table {
+            margin: auto;
+            justify-self: center;
+            width:100%        }
+        td {
+            text-align: start;
+
+        }
+        .the_places {
+            display: flex;
+            margin: auto;
+        }
+        .place {
+            width: 100%;
+            height: auto;
+        }
+        .image {
+            float: right;
+            max-height: auto;
+            max-width: 100%;
+        }
+        .footer {
+            align-items: center;
+            font-size: large;
+            font-family: cursive;
+        }
+        .clearfix {
+            overflow: auto;
+        }
+        @media screen and (max-width: 800px){
+            .the_places{
+            display: block;
+            }
+            .city {
+                display: block;
+            }
+            .header{
+                max-width: fit-content;
+            }
+        }
+
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="header">
+        <h1>Emmanuel Tsheledi Mafolo</h1>
+        <img src="C:\Users\MAFOLO ET\Documents\GitHub\basic_website\basic_website\images\Table_mountain_cable_way_with_lions_head.jpg" alt="table mountain" class="image1 clearfix">   
+    </div>
+    <div class="main">
+        <div class="content">
+            <h2>Which City?</h2>
+            <h3>Durban</h3>
+            <div class="city">
+                <img src="C:\Users\MAFOLO ET\Documents\GitHub\basic_website\basic_website\images\download (1).jpg" alt="Durban city" class="image2 clearfix">
+                <ul>
+           <li> It's one of the best cities in South Africa.</li>
+           <li> I would love to go on a holiday there and explore its beauty.</li>
+           <li> I love the fact that the food, rent and entertainment there is not really costly, so I can save a lot of money.</li>
+           <li> The weather there is always good throughout the whole year, so I would love to visit
+            because I heard that the water there stays cool the whole year.</li>
+        </ul>
+            </div>
+            <div>   
+               <h2>Foreign language</h2>
+               <h3>Spanish</h3>
+                It is one of the best, interesting and cool language to learn in the world. 
+                I love watching Tv shows that are in Spanish ,so I would really love to understand it instead of reading the subtiltles always. 
+                I am also in love with the spanish accent.
+                <table>
+                    <tr>
+                        <th>English Phrase</th>
+                        <th>Foreign Language</th>
+                    </tr>
+                    <tr>
+                        <td>Hello, how are you?</td>
+                        <td>¿Hola como estas?</td>
+                    </tr>
+                    <tr>
+                        <td>Can we meet for lunch tomorrow</td>
+                        <td>¿Podemos vernos para almorzar mañana?</td>
+                    </tr>
+                    <tr>
+                        <td>I look forward to see you</td>
+                        <td>estoy ansioso por verte</td>
+                    </tr>
+                </table>
+            </div>
+            <section class="places "> 
+            <h2>Historical Places in Johannesburg</h2>
+            <div class="the_places clearfix">
+               <div class="place">
+                
+            <h3>Hector Pieterson Memorial Museum </h3>
+            <div><img src="C:\Users\MAFOLO ET\Documents\GitHub\basic_website\basic_website\images\download.jpg"
+                alt="Hector Pieterson Memorial Museum" class="image"> </div>
+                <ul>
+                    <li>Remembers the job of the country's students in the battle against apartheid 
+                        and specifically the role played by younger students who participated in the Soweto protests of 1976
+                    </li>
+                    <li>It was named after a 12-year old named Hector Peterson who was short during a protest</li>
+                    <li>The museum honours the individuals who passed on in the uprisings, and celebrates 
+                        the students' role in the battle for freedom
+                    </li>
+                </ul>
+                </div>
+                <div class="place">
+                    
+            <h3> Johannesburg Art Gallery</h3>
+           <div> <img src="C:\Users\MAFOLO ET\Documents\GitHub\basic_website\basic_website\images\images (2).jpg"
+             alt="Johannesburg Art Gallery" class="image"></div>
+                <ul>
+                    <li>Its the biggest gallery on the subcontinent, with a collection larger than that of the South African National Art Gallery in Cape Town</li>
+                    <li>The gallery currently has in at most 9 000 fine arts in its assortment and includes 15 exhibition halls and sculpture gardens.</li>
+                    <li>The gallery likewise has significant property of Southern African customary traditional and artefacts</li>
+                </ul>
+                </div>
+                <div class="place">
+            <h3> Walter Sisulu National Botanical Garden</h3>
+           <div> <img src="C:\Users\MAFOLO ET\Documents\GitHub\basic_website\basic_website\images\images (1).jpg"
+            alt="Walter Sisulu National Botanical Garden" class="image"></div>
+                <ul>
+                    <li>There is a beautiful waterfall and people set up picnics there to witness the beautiful nature</li>
+                    <li>home of a breeding pair of Verreaux's Eagles that home in the cliffs close by the a waterfall</li>
+                    <li>It has Over 600 plant species and 220 bird species, just as various reptile and little vertebrates like antelope and jackal</li>
+                </ul>
+                
+                </div>
+            </div>
+            </section>
+               </div>
+            </div>
+    
+    <div class="footer">
+       <p> Footer </p>
+    </div>
+</div>
+</div>
+</body>
+</html>
