@@ -24,6 +24,7 @@ section {
 }
 .image {
 float:right;
+width: 60%;
 }
 .clearfix {
   overflow: auto;
