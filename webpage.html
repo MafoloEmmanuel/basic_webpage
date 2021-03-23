@@ -5,92 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Emmanuel Tsheledi Mafolo basic web page</title>
-    <style>
-        .container {
-            background-color: darkgray;
-            font-style: normal;
-            text-align: start;
-            flex-wrap: wrap;
-            margin: auto;
-            border-style: groove;
-            width: 100%;
-        }
-        .header {
-            display: flex;
-            width: 100%;
-            font-weight: bold;
-            padding: 25px;
-            align-content: space-between;
-        }
-        .image1 {
-            float: right;
-            width: 50%;
-            
-        }
-        .content {
-            padding: 2em;
-            max-width: 100%;
-            align-content: space-around;
-            margin: auto;
-        }
-        .image2 {
-            float: right;
-        }
-        .city {
-            display: flex;
-            align-content: space-around;
-            margin: auto;
-        }
-        table, th, td{
-            border: 3px solid black;
-          padding: 2px;
-          
-        }
-        th {
-            font-size: larger;
-        }
-        table {
-            margin: auto;
-            justify-self: center;
-            width:100%        }
-        td {
-            text-align: start;
-
-        }
-        .the_places {
-            display: flex;
-            margin: auto;
-        }
-        .place {
-            width: 100%;
-            height: auto;
-        }
-        .image {
-            float: right;
-            max-height: auto;
-            max-width: 100%;
-        }
-        .footer {
-            align-items: center;
-            font-size: large;
-            font-family: cursive;
-        }
-        .clearfix {
-            overflow: auto;
-        }
-        @media screen and (max-width: 800px){
-            .the_places{
-            display: block;
-            }
-            .city {
-                display: block;
-            }
-            .header{
-                max-width: fit-content;
-            }
-        }
-
-    </style>
+<link rel="stylesheet" href="style.css" type="text/css">
 </head>
 <body>
 <div class="container">
@@ -143,8 +58,6 @@
                <div class="place">
                 
             <h3>Hector Pieterson Memorial Museum </h3>
-            <div><img src="./images/download.jpg"
-                alt="Hector Pieterson Memorial Museum" class="image"> </div>
                 <ul>
                     <li>Remembers the job of the country's students in the battle against apartheid 
                         and specifically the role played by younger students who participated in the Soweto protests of 1976
@@ -155,21 +68,25 @@
                     </li>
                 </ul>
                 </div>
+                <div class="place"><img src="./images/download.jpg"
+                    alt="Hector Pieterson Memorial Museum" class="image clearfix">
+                 </div>
                 <div class="place">
                     
             <h3> Johannesburg Art Gallery</h3>
-           <div> <img src="./images/images (2).jpg"
-             alt="Johannesburg Art Gallery" class="image"></div>
+           
                 <ul>
                     <li>Its the biggest gallery on the subcontinent, with a collection larger than that of the South African National Art Gallery in Cape Town</li>
                     <li>The gallery currently has in at most 9 000 fine arts in its assortment and includes 15 exhibition halls and sculpture gardens.</li>
                     <li>The gallery likewise has significant property of Southern African customary traditional and artefacts</li>
                 </ul>
                 </div>
+                <div class="place"> 
+                    <img src="./images/images (2).jpg"
+                    alt="Johannesburg Art Gallery" class="image clearfix"></div>
                 <div class="place">
             <h3> Walter Sisulu National Botanical Garden</h3>
-           <div> <img src="./images/images (1).jpg"
-            alt="Walter Sisulu National Botanical Garden" class="image"></div>
+           
                 <ul>
                     <li>There is a beautiful waterfall and people set up picnics there to witness the beautiful nature</li>
                     <li>home of a breeding pair of Verreaux's Eagles that home in the cliffs close by the a waterfall</li>
@@ -177,6 +94,9 @@
                 </ul>
                 
                 </div>
+                <div class="place"> 
+                    <img src="./images/images (1).jpg"
+                    alt="Walter Sisulu National Botanical Garden" class="image clearfix"></div>
             </div>
             </section>
                </div>
