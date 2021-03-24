@@ -1,10 +1,21 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  left: 0;
+  top: 0;
+  font-size: 100%;
+
+}
 .container {
     background-color: darkgray;
     font-style: normal;
     text-align: start;
     flex-wrap: wrap;
     margin: auto;
-    border-style: groove;
+  
     width: 100%; 
 }
 .header {
@@ -60,7 +71,6 @@ td {
 .image {
     float: right;
    width: 100%;
-   
 }
 .footer {
     align-items: center;
@@ -71,6 +81,10 @@ td {
     overflow: auto;
 }
 @media screen and (max-width: 800px){
+    .container {
+        width: 100%;
+        display: block;
+    }
     .the_places{
     display: block;
     }

@@ -156,7 +156,7 @@ td {
 
 @media  screen and (min-width: 33.75em) {  /* 540px */
   .container {
-    width: 80%;
+    width: 100%;
     display: block;
   }
 }
@@ -217,6 +217,5 @@ td {
 @media  screen and (min-width: 800px) { 
   .container {
     width: 100%;
-   width: 100%;
   }
 }
