@@ -10,7 +10,7 @@ body {
 
 }
 .container {
-    background-color: darkgray;
+    background-color:gray;
     font-style: normal;
     text-align: start;
     flex-wrap: wrap;
@@ -20,6 +20,7 @@ body {
 }
 .header {
     display: flex;
+    flex-wrap: wrap;
     width: 100%;
     font-weight: bold;
     padding: 25px; 
@@ -60,6 +61,7 @@ td {
 }
 .the_places {
     display: flex;
+   
     margin: auto;
     justify-content: space-evenly;
     align-items: center;
@@ -86,7 +88,8 @@ td {
         display: block;
     }
     .the_places{
-    display: block;
+    display: flex;
+   flex-flow: wrap;
     }
     .city {
         display: block;
