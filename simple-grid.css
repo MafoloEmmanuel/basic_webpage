@@ -9,18 +9,15 @@
 
 html,
 body {
-  height: 100%;
-  width: 100%;
+ float: left;
+ 
   margin: 0;
   padding: 0;
   left: 0;
   top: 0;
   font-size: 100%;
 }
-section {
-  width: 100%;
-  height: 50%;
-}
+
 .image {
 float:right;
 width: 65%;
@@ -51,7 +48,7 @@ td {
 }
 /* ==== GRID SYSTEM ==== */
 .container {
-  
+  float: left;
   justify-content: space-between;
   background-color: darkgray;
   margin: auto;
@@ -60,7 +57,7 @@ td {
 }
 .row {
   position: relative;
-  width: 100%;
+  
   padding: 10px;
 }
 .row [class^="col"] {
@@ -135,13 +132,10 @@ td {
 
 @media screen and (min-width: 800px) {  /* 540px */
   .container {
-    
     display: block;
+    width: 100%;
   }
-  body {
-    width:  100%;
-    height: 100%;
-    }
+ 
 }
 
 @media  screen and (min-width: 800px) {  /* 720px */
@@ -190,7 +184,7 @@ td {
   }
 
   .col-12 {
-    width: 100%;
+    
     display: block;
   }
   .hidden-sm {

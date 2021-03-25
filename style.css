@@ -1,7 +1,6 @@
 html,
 body {
-  height: 100%;
-  width: 100%;
+  
   margin: 0;
   padding: 0;
   left: 0;
@@ -15,25 +14,24 @@ body {
     text-align: start;
     flex-wrap: wrap;
     margin: auto;
-  
-    width: 100%; 
+    float: left;
+    
 }
 .header {
     display: flex;
     flex-wrap: wrap;
-    width: 100%;
+   
     font-weight: bold;
     padding: 25px; 
     align-content: space-between;
 }
 .image1 {
     float: right;
-    width: 50%;
-    
+    width: 50%; 
 }
 .content {
     padding: 2em;
-    max-width: 100%;
+    
     align-content: space-around;
     margin: auto;
 }
@@ -54,25 +52,18 @@ th {
 table {
     margin: auto;
     justify-self: center;
-    width:100%        }
+    width:95%        }
 td {
     text-align: start;
 
 }
 .the_places {
     display: flex;
-   
-    margin: auto;
-    justify-content: space-evenly;
-    align-items: center;
 }
-.place {
-    width: 100%;
-    height: auto;
-}
+
 .image {
     float: right;
-   width: 50%;
+   width: 60%;
 }
 .footer {
     align-items: center;
@@ -84,8 +75,8 @@ td {
 }
 @media screen and (max-width: 800px){
     .container {
-        width: 100%;
         display: block;
+        width: 100%;
     }
     .the_places{
     display: flex;
@@ -97,4 +88,5 @@ td {
     .header{
         max-width: fit-content;
     }
+
 }
