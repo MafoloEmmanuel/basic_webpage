@@ -10,7 +10,7 @@
 html,
 body {
  float: left;
- 
+  
   margin: 0;
   padding: 0;
   left: 0;
@@ -35,8 +35,8 @@ th {
 }
 table {
   margin: auto;
-  justify-self: center;
-  width:95%      }
+  width:95% ;
+  box-sizing: border-box;     }
 td {
   text-align: start;
 }
@@ -45,6 +45,10 @@ td {
   font-family: 'Lato', Helvetica, sans-serif;
   color: #333447;
   line-height: 1.5;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  
 }
 /* ==== GRID SYSTEM ==== */
 .container {
@@ -54,6 +58,7 @@ td {
   margin: auto;
   text-align: left;
   padding: 1em;
+  width: 100%;
 }
 .row {
   position: relative;
@@ -135,7 +140,6 @@ td {
     display: block;
     width: 100%;
   }
- 
 }
 
 @media  screen and (min-width: 800px) {  /* 720px */

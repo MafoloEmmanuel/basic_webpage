@@ -9,7 +9,7 @@ body {
 
 }
 .container {
-    background-color:gray;
+    background-color:darkgray;
     font-style: normal;
     text-align: start;
     flex-wrap: wrap;
@@ -27,7 +27,7 @@ body {
 }
 .image1 {
     float: right;
-    width: 50%; 
+    width: 40%; 
 }
 .content {
     padding: 2em;
