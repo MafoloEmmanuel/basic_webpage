@@ -9,7 +9,7 @@ body {
 
 }
 .container {
-    background-color:darkgray;
+    background-color: darkgray;
     font-style: normal;
     text-align: start;
     flex-wrap: wrap;
@@ -53,7 +53,9 @@ th {
 table {
     
     margin: auto;
-    width:95%        }
+    width:95% ;
+    box-sizing: border-box;   
+    }
 td {
     text-align: start;
 
@@ -67,9 +69,12 @@ td {
    width: 60%;
 }
 .footer {
+    display: flex;
     align-items: center;
     font-size: large;
     font-family: cursive;
+    margin: auto;
+    padding: 2px;
 }
 .clearfix {
     overflow: auto;
