@@ -44,14 +44,15 @@ body {
 table, th, td{
     border: 3px solid black;
   padding: 2px;
+ margin: auto;
   
 }
 th {
     font-size: larger;
 }
 table {
+    
     margin: auto;
-    justify-self: center;
     width:95%        }
 td {
     text-align: start;
