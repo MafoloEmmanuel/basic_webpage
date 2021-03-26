@@ -1,6 +1,7 @@
+
+
 html,
 body {
-  
   margin: 0;
   padding: 0;
   left: 0;
@@ -15,24 +16,27 @@ body {
     flex-wrap: wrap;
     margin: auto;
     float: left;
+    padding: 10px;
     
 }
 .header {
     display: flex;
     flex-wrap: wrap;
-   
     font-weight: bold;
-    padding: 25px; 
     align-content: space-between;
 }
 .image1 {
     float: right;
     width: 40%; 
+    padding: 10px;
 }
 .content {
     padding: 2em;
-    
     align-content: space-around;
+    margin: auto;
+}
+.language {
+    padding: 10px;
     margin: auto;
 }
 
@@ -43,7 +47,7 @@ body {
 }
 table, th, td{
     border: 3px solid black;
-  padding: 2px;
+  padding: 1px;
  margin: auto;
   
 }
@@ -51,9 +55,9 @@ th {
     font-size: larger;
 }
 table {
-    
     margin: auto;
     width:95% ;
+    border-collapse: collapse;
     box-sizing: border-box;   
     }
 td {
@@ -67,6 +71,7 @@ td {
 .image {
     float: right;
    width: 60%;
+   padding: 10px;
 }
 .footer {
     display: flex;
@@ -76,8 +81,17 @@ td {
     margin: auto;
     padding: 2px;
 }
+h2 {
+    text-align: center;
+    margin: auto;
+}
+p {
+    padding: 6px;
+}
+
 .clearfix {
     overflow: auto;
+    zoom: 1;
 }
 @media screen and (max-width: 800px){
     .container {

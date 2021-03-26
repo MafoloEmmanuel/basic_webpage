@@ -17,10 +17,16 @@ body {
   top: 0;
   font-size: 100%;
 }
+h2 {
+  text-align: center;
+  margin: auto;
+}
+
 
 .image {
 float:right;
 width: 65%;
+padding: 10px;
 
 }
 .clearfix {
@@ -37,14 +43,13 @@ th {
 table {
   margin: auto;
   width:95% ;
-  box-sizing: border-box;     }
+  box-sizing: border-box; 
+border-collapse: collapse;    }
 td {
   text-align: start;
 }
 /* ROOT FONT STYLES */
 * {
-  font-family: 'Lato', Helvetica, sans-serif;
-  color: #333447;
   line-height: 1.5;
   padding: 0;
   margin: 0;
@@ -71,6 +76,9 @@ td {
   margin: 0.5rem 2%;
   min-height: 0.125rem;
 }
+p {
+  padding: 10px;
+}
 .col-1,
 .col-2,
 .col-3,
@@ -84,6 +92,7 @@ td {
 .col-11,
 .col-12 {
   width: 100%;
+  padding: 5px;
 }
 .col-1-sm {
   width: 4.33%;

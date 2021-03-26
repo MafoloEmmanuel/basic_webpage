@@ -4,39 +4,42 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Basic web page</title>
-    <link rel="stylesheet" href="simple-grid.css">
-    <link rel="stylesheet" href="style.css">
+    <title>Emmanuel Basic Websites</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="stylesheet" href="simple-grid.css" type="text/css">
     <style>
-        body {
-            background-color: cornflowerblue;
-            padding-left: 20px;
-            align-items: center;
-            margin: auto;
+        *{
+            padding: 0%;
+            margin: 0;
+            box-sizing: border-box;
+            width: 100%;
         }
-       h1 {
-           font-size: x-large;
-           font-family: Verdana, Geneva, Tahoma, sans-serif;
-           font-weight: bolder;
-           padding: 20px;
-           margin: auto;
-       }
-        ul {
-            list-style: none;
+        .content {
+            margin: auto;
+            font-family: 'Times New Roman', Times, serif;
             
         }
-        
+        body {
+            background-color: darkgray;
+            width: 100%;
+        }
+        h1 {
+            text-align: center;
+            margin: auto;
+        }
+        @media screen and (max-width:800px) {
+            body {
+                display: block;
+            }
+        }
     </style>
 </head>
 <body>
-    
-            <h1>My Websites</h1>
-                <ul>
-                <li><a href="webpage.html"> The first webpage</a> </li>
-                <li> <a href="my-webpage-grid.html" > The second webpage</a> </li>
-                </ul>
-        
-        </div>
+    <div class="content">
+        <h1>My Websites</h1>
+            <h2> <a href="./webpage.html">The first version of my webpage </a></h2>
+            <h2> <a href="./my-webpage-grid.html">The second version of my webpage</a></h2>
+
     </div>
 </body>
 </html>
